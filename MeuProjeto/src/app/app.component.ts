@@ -2,7 +2,6 @@ import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { MenuComponent } from "./navegacao/menu/menu.component";
 import { FooterComponent } from "./navegacao/footer/footer.component";
-import { HomeComponent } from "./navegacao/home/home.component";
 import { APP_BASE_HREF } from '@angular/common';
 import { ProdutoService } from './produtos/produtos.service';
 
@@ -11,8 +10,7 @@ import { ProdutoService } from './produtos/produtos.service';
   imports: [
     RouterOutlet,
     MenuComponent,
-    FooterComponent, 
-    HomeComponent
+    FooterComponent
   ],
   templateUrl: './app.component.html', 
   styles: [],

@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
-
 import {RouterLink} from '@angular/router';  
 import { Produto } from '../produto';
 import { ProdutoService } from '../produtos.service';

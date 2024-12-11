@@ -11,7 +11,10 @@ ng new --minimal -g MeuProjeto
 cd .\MeuProjeto\
 
 npm start
+
 ```
+
+
 
 # [The Angular CLI](https://angular.dev/tools/cli)
 
@@ -38,13 +41,27 @@ ng g c navegacao/footer
 
 ```
 
-## Services
+## Executar o projeto 
 
-[http-client](https://angular.dev/guide/http)
+1. Servidor - Produtos
+
+``` bash
+cd backend 
+json-server --watch produtos.json
+
+```
+
+2. Executar App
+
+``` bash
+cd .\MeuProjeto\
+ng s
+```
 
 
-### [Fake Backend](backend/readme.md)
+## Update Angular 
 
+- [npm-check-updates](/helps/npm-check-updates.md)
 
 
 # Links 
@@ -57,3 +74,5 @@ ng g c navegacao/footer
 - [Nx - Getting Started](https://nx.dev/l/r/getting-started/intro)
 - [Augury](https://augury.rangle.io/)
 - [Bootstrap](https://getbootstrap.com/)
+- [http-client](https://angular.dev/guide/http)
+- [Fake Backend](backend/readme.md)

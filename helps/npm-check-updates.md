@@ -9,7 +9,6 @@ Para instalar o `npm-check-updates` globalmente, execute o seguinte comando:
 npm install -g npm-check-updates
 ```
 
-
 ## Usage
 
 Check the latest versions of all project dependencies:
